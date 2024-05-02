@@ -1,3 +1,4 @@
+/* Common styles */
 .top-menu {
   display: flex;
   justify-content: center;
@@ -7,10 +8,10 @@
 .top-menu a {
   background-color: #556b2f; /* Olive Drab button color */
   color: white;
-  padding: 10px 30px;
+  padding: 10px 5%; /* Adjust padding using percentages */
   text-decoration: none;
   font-size: 16px;
-  margin: 2px 64px;
+  margin: 2px 2%; /* Adjust margin using percentages */
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -33,16 +34,15 @@
 }
 
 .company-logo img {
-  width: 150px; /* Adjust the width as needed */
+  width: 20%; /* Adjust the width using percentages */
   height: auto; /* Maintain aspect ratio */
 }
 
-/* Add this CSS code to your existing style.css file */
 .pay-now-button {
   display: inline-block;
   background-color: #556b2f; /* Olive Drab button color */
   color: white;
-  padding: 15px 30px;
+  padding: 15px 5%; /* Adjust padding using percentages */
   text-decoration: none;
   font-size: 20px;
   border-radius: 5px;
@@ -51,6 +51,22 @@
 
 .pay-now-button:hover {
   background-color: #6b8e23; /* Dark Olive Green hover color */
+}
+
+/* Mobile styles */
+@media (max-width: 575px) {
+  .top-menu a {
+    padding: 10px 3%; /* Adjust padding for smaller screens */
+    margin: 2px 1%; /* Adjust margin for smaller screens */
+  }
+
+  .company-logo img {
+    width: 40%; /* Adjust the width for smaller screens */
+  }
+
+  .pay-now-button {
+    padding: 15px 3%; /* Adjust padding for smaller screens */
+  }
 }
 
 /* Add any additional styles as needed */
