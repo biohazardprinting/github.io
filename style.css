@@ -1,0 +1,56 @@
+.top-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.top-menu a {
+  background-color: #556b2f; /* Olive Drab button color */
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 2px 64px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.top-menu a:hover {
+  background-color: #6b8e23; /* Dark Olive Green hover color */
+}
+
+.banner {
+  height: calc(33vh - 20px); /* Adjusted height */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.company-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Add this CSS code to your existing style.css file */
+.pay-now-button {
+  display: inline-block;
+  background-color: #556b2f; /* Olive Drab button color */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pay-now-button:hover {
+  background-color: #6b8e23; /* Dark Olive Green hover color */
+}
+
+/* Add any additional styles as needed */
