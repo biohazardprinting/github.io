@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Biohazard Printing</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-wBY/G6wCpRn4bkrzi5wrH/bvW/VO5v5t7o2kddWE+JaJtvCNXjCsfrwHrL6ggPBcbY1k3lCMjy+mcTlnuzmzFw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        background-color: #41533b; /* Updated background color */
+        font-family: Arial, sans-serif; /* Set a readable font */
+        color: #ffffff; /* Set text color to white */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+
+      .banner {
+        background-image: url("https://cdn.glitch.global/2fcef5b8-67f0-4682-bc5d-533a16ed4eac/BiohazardPrintingBanner.png?v=1714107683884");
+        height: 33vh; /* Adjusted height */
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .top-menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .top-menu a {
+        background-color: #556b2f; /* Olive Drab button color */
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 2px 64px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .top-menu a:hover {
+        background-color: #6b8e23; /* Dark Olive Green hover color */
+      }
+
+      .content {
+        max-width: 800px; /* Limit content width for readability */
+        margin: 0 auto; /* Center content horizontally */
+        padding: 20px; /* Add padding for spacing */
+      }
+
+      h1 {
+        color: #f0e68c; /* Light Khaki text color */
+        font-size: 36px; /* Increase font size */
+        margin-bottom: 20px; /* Add spacing below heading */
+      }
+
+      p {
+        color: #f5deb3; /* Beige text color */
+        font-size: 18px; /* Increase font size */
+        line-height: 1.5; /* Improve readability with increased line height */
+        margin-bottom: 20px; /* Add spacing below paragraphs */
+      }
+
+      .social-links {
+        margin-top: 30px; /* Add spacing above social media links */
+      }
+
+      .social-links a {
+        color: #ffffff; /* Set social media icon color */
+        text-decoration: none;
+        font-size: 24px; /* Set social media icon size */
+        margin-right: 20px; /* Add spacing between social media icons */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner"></div>
+    <div class="top-menu">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="payments.html">Make a Payment</a>
+    </div>
+    <div class="content" role="main">
+      <h1><strong>About the Owner and Biohazard Printing</strong></h1>
+      <p>
+        Allow me to introduce myself - I'm Derek, the mastermind behind
+        Biohazard Printing, a <span id="age"></span>-year-old resident of
+        northern Ohio. Nestled in this cozy corner of the world, I navigate the
+        intricacies of life alongside my wife and kids, juggling the
+        responsibilities of family, work, and my ever-expanding passion project.
+      </p>
+      <p>
+        Now, how did this wild ride begin, you ask? Well, picture this: a
+        regular guy with a full-time gig, just tinkering away in his spare time,
+        turning random ideas into tangible creations. That was me, until one
+        fateful day when lightning struck and those creations morphed into
+        something more than just a hobby. Suddenly, I found myself on the cusp
+        of a new adventure, one brimming with endless possibilities and
+        unforeseen twists.
+      </p>
+      <p>
+        But wait, rewind a bit. How did I come up with the name Biohazard
+        Printing? Well, gather 'round and let me share the tale. Several years
+        ago (seems like forever ago) I served in the United States Army as a
+        74D, a Chemical, Biological, Radiological, and Nuclear Specialist. Don't
+        let the title get ya, it's a fancy title for saying you're there to
+        clean up a BIG mess. From those military days, the concept of biological
+        warfare stuck with me, intertwined with memories of donning protective
+        gear and navigating new territories. Thus, the name "Biohazard" was
+        born, inspired by my military experiance.
+      </p>
+      <p>
+        As fate would have it, 3D printing emerged as the cornerstone of my
+        newfound venture. With every nozzle pass of the printer, my imagination
+        ran wild, sculpting wonders out of mere plastic. Since 3D printing was
+        the first big thing my business did, that's how the "Printing" name came
+        into play, and alas, <b><u>Biohazard Printing</u></b
+        >.
+      </p>
+      <p>
+        But the adventure didn't stop there. As my business grew, so did my
+        repertoire of skills. I have since ventured into laser engraving, custom
+        apparel, custom images, and even website building. With each new
+        endeavor, I discovered new passions and honed my craft, pushing the
+        boundaries of what Biohazard Printing could achieve. And here's the
+        kicker – due to a change in career path, I've been able to dedicate even
+        more time to my business, leveraging the skills and experiences gained
+        from my day job to fuel my entrepreneurial pursuits. It's not just about
+        creating anymore; it's about exploring new horizons and finding beauty
+        in the unexpected.
+      </p>
+      <p>
+        So, won't you join me on this remarkable journey? Together, let's
+        venture into uncharted territories, where creativity knows no bounds and
+        every day brings new discoveries.
+      </p>
+    </div>
+    <script>
+      // Calculate age and update the element
+      function updateAge() {
+        var birthDate = new Date("1988-11-18"); // Replace 'YYYY-MM-DD' with your birthdate in format 'YYYY-MM-DD'
+        var today = new Date();
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var monthDiff = today.getMonth() - birthDate.getMonth();
+        if (
+          monthDiff < 0 ||
+          (monthDiff === 0 && today.getDate() < birthDate.getDate())
+        ) {
+          age--;
+        }
+        document.getElementById("age").textContent = age;
+      }
+
+      // Call updateAge function when the page loads
+      updateAge();
+
+      // Check if it's November 18th, update age if true
+      var today = new Date();
+      if (today.getMonth() === 10 && today.getDate() === 18) {
+        // November is month 10 (zero-based index)
+        updateAge();
+      }
+    </script>
+  </body>
+</html>
