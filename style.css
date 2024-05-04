@@ -1,19 +1,4 @@
-body {
-  background-color: #41533b; /* Updated background color */
-  font-family: Arial, sans-serif; /* Set a readable font */
-  color: #ffffff; /* Set text color to white */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-}
-
-.banner {
-  background-image: url("/BiohazardPrintingBanner.png");
-  height: 33vh; /* Adjusted height */
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
+/* Common styles */
 .top-menu {
   display: flex;
   justify-content: center;
@@ -23,10 +8,10 @@ body {
 .top-menu a {
   background-color: #556b2f; /* Olive Drab button color */
   color: white;
-  padding: 10px 30px;
+  padding: 10px 5%; /* Adjust padding using percentages */
   text-decoration: none;
   font-size: 16px;
-  margin: 2px 64px;
+  margin: 2px 2%; /* Adjust margin using percentages */
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -36,55 +21,52 @@ body {
   background-color: #6b8e23; /* Dark Olive Green hover color */
 }
 
-.content {
-  max-width: 800px; /* Limit content width for readability */
-  margin: 0 auto; /* Center content horizontally */
-  padding: 20px; /* Add padding for spacing */
-  position: relative; /* Set container position */
+.banner {
+  height: calc(33vh - 20px); /* Adjusted height */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.testimonial img {
-  width: 150px; /* Adjust image width */
+.company-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo img {
+  width: 20%; /* Adjust the width using percentages */
   height: auto; /* Maintain aspect ratio */
-  position: absolute; /* Position images absolutely */
 }
 
-.review1 {
-  top: 20%;
-  left: 10%;
+.pay-now-button {
+  display: inline-block;
+  background-color: #556b2f; /* Olive Drab button color */
+  color: white;
+  padding: 15px 5%; /* Adjust padding using percentages */
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.review2 {
-  top: 20%;
-  left: 30%;
+.pay-now-button:hover {
+  background-color: #6b8e23; /* Dark Olive Green hover color */
 }
 
-.review3 {
-  top: 20%;
-  left: 50%;
+/* Mobile styles */
+@media (max-width: 575px) {
+  .top-menu a {
+    padding: 10px 3%; /* Adjust padding for smaller screens */
+    margin: 2px 1%; /* Adjust margin for smaller screens */
+  }
+
+  .company-logo img {
+    width: 40%; /* Adjust the width for smaller screens */
+  }
+
+  .pay-now-button {
+    padding: 15px 3%; /* Adjust padding for smaller screens */
+  }
 }
 
-.review4 {
-  top: 20%;
-  left: 70%;
-}
-
-.review5 {
-  top: 50%;
-  left: 10%;
-}
-
-.review6 {
-  top: 50%;
-  left: 30%;
-}
-
-.review7 {
-  top: 50%;
-  left: 50%;
-}
-
-.review8 {
-  top: 50%;
-  left: 70%;
-}
+/* Add any additional styles as needed */
