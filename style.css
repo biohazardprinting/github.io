@@ -40,16 +40,13 @@ body {
   max-width: 800px; /* Limit content width for readability */
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add padding for spacing */
-  display: flex; /* Use flexbox layout */
-  flex-wrap: wrap; /* Allow items to wrap */
-  justify-content: center; /* Center items horizontally */
-  gap: 20px; /* Gap between grid items */
+  position: relative; /* Set container position */
 }
 
 .testimonial img {
   width: 150px; /* Adjust image width */
   height: auto; /* Maintain aspect ratio */
-  position: absolute;
+  position: absolute; /* Position images absolutely */
 }
 
 .review1 {
@@ -58,36 +55,36 @@ body {
 }
 
 .review2 {
-  top: 50%;
-  left: 5%;
-}
-
-.review3 {
-  top: 70%;
-  left: 90%;
-}
-
-.review4 {
-  top: 10%;
+  top: 20%;
   left: 30%;
 }
 
-.review5 {
-  top: 40%;
+.review3 {
+  top: 20%;
+  left: 50%;
+}
+
+.review4 {
+  top: 20%;
   left: 70%;
 }
 
+.review5 {
+  top: 50%;
+  left: 10%;
+}
+
 .review6 {
-  top: 80%;
-  left: 20%;
+  top: 50%;
+  left: 30%;
 }
 
 .review7 {
-  top: 30%;
+  top: 50%;
   left: 50%;
 }
 
 .review8 {
-  top: 60%;
-  left: 80%;
+  top: 50%;
+  left: 70%;
 }
