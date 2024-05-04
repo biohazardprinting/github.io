@@ -67,6 +67,21 @@
   .pay-now-button {
     padding: 15px 3%; /* Adjust padding for smaller screens */
   }
+  .testimonials1 img {
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+}
+  .testimonials2 img {
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+}
+  .testimonials3 img {
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+}
+  .testimonials4 img {
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Add any additional styles as needed */
